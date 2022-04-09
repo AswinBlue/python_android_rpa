@@ -45,5 +45,10 @@ if __name__ == '__main__':
 
     #if ac.take_screenshot(image_name) is True:
         # te.parse_image(te.load_image(image_name, Coordinate.info_name[0], Coordinate.info_name[1]))
-    te.compare_image('sample1.png', 'sample2.png')
+
+    # screen = te.load_image('screen.png')
+    # s2 = te.load_image('sample2.png')
+    # s1 = te.load_image('sample1.png')
+    # print(te.compare_image(s1, s2))
+    # print(te.parse_image(screen))
 
